@@ -25,4 +25,9 @@ public class UniversityMember
         }
         ActionLog.Add("Duty performed");
     }
+
+    public int GetActionCount()
+    {
+         return ActionLog.Count; 
+    }
 }
