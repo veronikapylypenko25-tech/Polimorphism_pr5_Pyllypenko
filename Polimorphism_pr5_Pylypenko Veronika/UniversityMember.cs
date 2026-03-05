@@ -20,6 +20,9 @@ public class UniversityMember
 
     virtual void PerformDuties()
     {
-        if (ActionLog.Count>=5){throw new Exception()}
+        if (ActionLog.Count >= 5)
+        {
+            throw new Exception("Member has already reached a daily limit of 5 actions!");
+        }
     }
 }
