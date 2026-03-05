@@ -24,7 +24,6 @@ public class UniversityRegistry
         {
             totalActions += member.GetActionCount();
         }
-
         return totalActions;
     }
 }
