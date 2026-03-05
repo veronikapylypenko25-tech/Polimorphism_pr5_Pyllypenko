@@ -1,12 +1,12 @@
 ﻿namespace Polimorphism_pr5_Pylypenko_Veronika;
 
-public class Proffesor:UniversityMember
+public class Proffesor : UniversityMember
 {
-    public Professor(string name, string id) : base(name, id)
+    public Proffesor(string name, string id) : base(name, id)
     {
         
     }
-    public override void PerformedDuties()
+    public override void PerformDuties()
     {
         if (ActionLog.Count >= 5)
         {

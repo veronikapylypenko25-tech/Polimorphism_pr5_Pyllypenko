@@ -3,7 +3,6 @@
 public class UniversityMember
 {
     private string _name;
-
     public string Name
     {
         get=>_name;
@@ -18,7 +17,7 @@ public class UniversityMember
         MemberID = id;
     }
 
-    virtual void PerformDuties()
+    public virtual void PerformDuties()
     {
         if (ActionLog.Count >= 5)
         {
