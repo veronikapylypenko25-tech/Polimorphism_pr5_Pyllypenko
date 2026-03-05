@@ -24,5 +24,6 @@ public class UniversityMember
         {
             throw new Exception("Member has already reached a daily limit of 5 actions!");
         }
+        ActionLog.Add("Duty performed");
     }
 }
